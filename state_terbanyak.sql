@@ -1,0 +1,4 @@
+SELECT STATE as KODE_DAERAH,COUNT(1) as jumlah
+FROM `arched-canyon-354804.baru.us-500`
+GROUP BY KODE_DAERAH
+ORDER BY jumlah DESC
